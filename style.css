@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-size: 16px; /* tamaño por defecto para el documento de 16px */
+    font-family: sans-serif;
+    color: white;
+    background-color: black;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #333;
+    padding: 1rem 2%;
+  }
+  
+  h1 {
+    font-size: 2rem; /* tamaño h1 el doble de lo que hay por defecto para el documento */
+    margin: 0;
+  }
+  
+  img {
+    height: 50px; /* Ajustada al ejemplo con unidades absolutas */
+  }
+  
+  main {
+    max-width: 1000px; /* ancho maximo del main de 1000px */
+    margin: 0 auto;
+    padding: 1rem; /* tamaño por defecto del documento 16 px pero con unidad relativa */
+    text-align: left;
+  }
+  
+  h2,
+  h3 {
+    margin: 1rem 0;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  li {
+    margin: 0.5rem 0;
+  }
+  
+  footer {
+    background-color: #999;
+    padding: 1rem; /* tamaño por defecto del documento 16 px pero con unidad relativa */
+    text-align: center;
+  }
